@@ -24,6 +24,7 @@ $app->get('/', function (Request $request, Response $response) {
   $response->getBody()->write('Welocme to PowerFuel!');
   return $response;
 })->setName('root');
+
 // outlets
 require __DIR__ . '/../routes/outlets.php';
 
